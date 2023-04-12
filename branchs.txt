@@ -1,0 +1,11 @@
+Oque são branchs?
+	Branchs são ramificações do codigo original, uma forma de "copia" do codigo. É util para fazer alterações ou adições de codigos sem o risco de deixar o codigo original instavel; Sendo necessario mesclar a ramificação na qual foi feita a alteração no codigo principal.
+
+Como Criar?
+	Na pasta do projeto(master,main) insira o codigo;
+		git branch exemplo-01
+
+	Para acessar a branch use o codigo
+		git checkout exemplo-01	
+
+	Ou o codigo 'git checkout -b exemplo-01' , para criar e acessar a nova branch
